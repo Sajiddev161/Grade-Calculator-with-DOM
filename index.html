@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Percentage & Grade Calculator </title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+        input {
+            padding: 10px;
+            margin: 5px;
+            width: 200px;
+        }
+        button {
+            padding: 10px;
+            background: blue;
+            color: white;
+            border: none;
+            cursor: pointer;
+            
+        }
+        button:hover {
+            background-color: rgb(224, 56, 224);
+        }
+        #result {
+            margin-top: 20px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+      
+      <input type="number" id="obtained_marks" placeholder="Enter your obtained marks"> <br><br><br>
+    <input type="number" id="total_marks" placeholder="Enter your total marks"> <br><br><br><br>
+    <button type="submit" onclick="calculateGrade()"> Result </button>
+
+    <p id="result"></p>
+
+    <script src="./index.js"></script>
+</body>
+</html>
